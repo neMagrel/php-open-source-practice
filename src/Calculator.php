@@ -31,3 +31,15 @@ class Calculator
         return $a * $b;
     }
 }
+
+    /**
+     * Вычитает второе число из первого.
+     *
+     * @param float $a Уменьшаемое
+     * @param float $b Вычитаемое
+     * @return float Разность чисел
+     */
+    public function subtract(float $a, float $b): float
+    {
+        return $a - $b;
+    }
