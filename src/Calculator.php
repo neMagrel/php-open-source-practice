@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 namespace App;
 
 /**
@@ -30,7 +32,6 @@ class Calculator
     {
         return $a * $b;
     }
-}
 
     /**
      * Вычитает второе число из первого.
@@ -43,3 +44,4 @@ class Calculator
     {
         return $a - $b;
     }
+} 
